@@ -1,0 +1,34 @@
+@import url(../place/place.css);
+
+.places {
+  display: grid;
+  grid-template-rows: 660px 584px 584px 660px 584px;
+  row-gap: 80px;
+  width: calc(100% - 100px * 2);
+}
+
+
+@media screen and (max-width: 1279px) {
+  .places {
+    grid-template-rows: 640px 564px 564px 640px 564px;
+    row-gap: 78px;
+    width: calc(100% - 48px * 2);
+  }
+}
+
+
+@media screen and (max-width: 1023px) {
+  .places {
+    grid-template-rows: 582px 536px 484px 434px 486px;
+    row-gap: 72px;
+    width: calc(100% - 24px * 2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    grid-template-rows: 965px 940px 913px 887px 889px;
+    row-gap: 49px;
+    width: 100%;
+  }
+}
