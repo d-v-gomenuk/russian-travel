@@ -1,12 +1,3 @@
-@import url(../page/__container/page__container.css);
-@import url(../page/__header/page__header.css);
-@import url(../page/__lead/page__lead.css);
-@import url(../page/__intro/page__intro.css);
-@import url(../page/__photo-grid/page__photo-grid.css);
-@import url(../page/__places/page__places.css);
-@import url(../page/__cover/page__cover.css);
-@import url(../page/__footer/page__footer.css);
-
 .page {
   background-color: #2a2c2f;
   color: #fff;
